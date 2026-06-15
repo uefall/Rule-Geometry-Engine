@@ -1,0 +1,3 @@
+add_executable(basic_pipeline basic_pipeline.cpp)
+target_link_libraries(basic_pipeline PRIVATE rge)
+rge_set_target_options(basic_pipeline)
